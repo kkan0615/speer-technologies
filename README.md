@@ -12,13 +12,13 @@ My email is kkan0615@gmail.com
 ### How to start server
 1. Install Node.js and Postgres SQL
 2. Create Database
-3. Create .env file with following options
+3. Create .env file under root directory with following options
 ```
 DATABASE_URL=postgres://{user}:{password}@{hostname}:{port}/{database-name}
 ```
 4. Run command "yarn install" to install all packages.
 5. Run command "yarn build" to build the app.
-   1. If you can see "dist" folder in root, it's successfully built.
+   1. If you can see "dist" folder under root directory, it's successfully built.
 6. Run command "yarn start" to run the app.
    1. If you can open with "localhost:8000", it's successfully running.
 
@@ -34,7 +34,7 @@ yarn dev
 
 ### Start production
 ```
-yarn build && yarn start
+yarn build & yarn start
 ```
 
 ### Testing
@@ -53,7 +53,10 @@ yarn test
 - [jest](https://jestjs.io/): Jest Library
 - [jwt](https://jwt.io/): Json Web Token Library
 - [bcrypt](https://github.com/kelektiv/node.bcrypt.js): Hash the password
+- [nodemon](https://nodemon.io/): reload, automatically. 
+- [ts-node](https://typestrong.org/ts-node/): TypeScript execution and REPL for node.js
 
+-------------
 
 DUE DATE: 48 hours from when you start the assessment, however, if you require more time feel free to ask! Good luck!
 
