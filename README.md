@@ -55,7 +55,11 @@ yarn test
 - [bcrypt](https://github.com/kelektiv/node.bcrypt.js): Hash the password
 - [nodemon](https://nodemon.io/): reload, automatically. 
 - [ts-node](https://typestrong.org/ts-node/): TypeScript execution and REPL for node.js
+- [express-rate-limit](https://github.com/express-rate-limit/express-rate-limit): Basic rate-limiting middleware for Express
 
+## Rate Limit
+- 10 time per minute
+- Check the `middlewares/rateLimiter.ts` to change configuration
 -------------
 
 DUE DATE: 48 hours from when you start the assessment, however, if you require more time feel free to ask! Good luck!

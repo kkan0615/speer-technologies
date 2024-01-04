@@ -13,7 +13,6 @@
     "start": "node dist/server.js"
   },
   "dependencies": {
-    "@neondatabase/serverless": "^0.6.1",
     "@types/node": "^20.10.6",
     "bcrypt": "^5.1.1",
     "dotenv": "^16.3.1",
