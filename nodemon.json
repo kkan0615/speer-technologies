@@ -1,0 +1,6 @@
+{
+  "ignore": ["dist", "node_modules", "package.json"],
+  "watch": ["nodemon.json", ".env", "src", "app.ts", "server.ts"],
+  "ext": "js, ts, json",
+  "exec": "ts-node server.ts"
+}
